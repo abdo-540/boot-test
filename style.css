@@ -1,0 +1,32 @@
+*{
+    overflow-x: hidden;
+}
+main{
+    background: rgb(16, 16, 16);
+}
+#main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./img/221463.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+#main-title{
+    font-size: 50px;
+    color: whitesmoke;
+    cursor: default;
+}
+
+footer{
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: space-between;
+}
+#footer-text{
+    color: whitesmoke;
+    margin-left: 10px;
+}
